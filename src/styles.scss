@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'primeng/resources/themes/saga-blue/theme.css';
+@import 'primeflex/primeflex.css';
+
+
+$background-color: #252525 !important;
+$font-color: #fff !important;
+
+
+
+body {
+  background-color: #fff;
+  opacity: 0.95;
+  background-image: url('./assets/bg-car.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
