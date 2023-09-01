@@ -13,14 +13,14 @@
         </div>
         <div class="col-12 w-full">
           <label for="">Usuário:</label>
-          <input type="text" class="w-full" pInputText />
+          <input [(ngModel)]="requestLogin.login" type="text" class="w-full" pInputText />
         </div>
         <div class="col-12 w-full">
           <label for="">Senha:</label>
-          <input type="password" class="w-full" pInputText />
+          <input type="password" [(ngModel)]="requestLogin.password" class="w-full" pInputText />
         </div>
         <div class="col-12 w-full mt-2">
-          <p-button label="Entrar" class=""></p-button>
+          <p-button (click)="doLogin()" label="Entrar" class=""></p-button>
         </div>
       </div>
     </p-card>

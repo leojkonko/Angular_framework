@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 //@import 'primeng/resources/themes/saga-blue/theme.css';
 //@import 'primeflex/primeflex.css';
-
+@import 'primeng/resources/themes/saga-blue/theme.css';
+@import 'primeflex/primeflex.css';
 
 $background-color: #252525 !important;
 $font-color: #fff !important;
@@ -16,4 +17,27 @@ body {
   background-attachment: fixed;
   background-size: cover;
 
+}
+
+.p-button {
+  width: 100%;
+}
+
+
+
+.p-card {
+  background-color: $background-color;
+  color: $font-color;
+}
+
+.p-button {
+  width: 100% !important;
+}
+
+svg {
+  fill: #007ad9;
+}
+
+.card {
+  margin-top: 4rem !important;
 }
